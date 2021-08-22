@@ -1,0 +1,24 @@
+/* background styles */
+.cell {
+  border: 0.1px solid black;
+}
+
+/* CSS Grid */
+.grid {
+  display: grid;
+  width: 750px;
+  height: 750px;
+  /* grid-template-columns: repeat(16, 50px);
+  grid-template-rows: repeat(16, 50px); */
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
