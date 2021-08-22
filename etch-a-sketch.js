@@ -19,7 +19,7 @@ var gridNumber = 16;
 // Create new grid size
 newGrid.addEventListener('click', () => {
   gridNumber = prompt("Please enter a number 1-100", "");
-  if (gridNumber <= 200 && gridNumber > 0) {
+  if (gridNumber <= 100 && gridNumber > 0) {
     console.log(gridNumber); 
     createDivs(gridNumber);
   } else prompt("Please enter a number between 1-100", "");
